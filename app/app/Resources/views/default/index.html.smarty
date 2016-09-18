@@ -1,0 +1,7 @@
+{extends 'file:base.html.smarty'}
+
+{block name="body"}{/block}
+
+{block name="stylesheets"}
+
+{/block}

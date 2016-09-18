@@ -1,4 +1,14 @@
-# docker-skeleton-php
+SmartyBundle Sandbox
+====================
+
+A sandbox for testing [SmartyBundle](https://github.com/noiselabs/SmartyBundle) features.
+
+> SmartyBundle is a Symfony2 bundle that provides integration for the Smarty3 template engine.
+
+You can use this Docker-powered Symfony distribution if you want to check-out how [Smarty](http://www.smarty.net/) plays with
+[Symfony](https://symfony.com/) or when developing for SmartyBundle.
+
+[![Gitter](https://img.shields.io/gitter/room/noiselabs/SmartyBundle.svg?style=flat-square)](https://gitter.im/noiselabs/SmartyBundle)
 
 [![nginx](https://img.shields.io/badge/nginx-1.11-brightgreen.svg)]()
 [![mysql](https://img.shields.io/badge/mysql-5.7-brightgreen.svg)]()
@@ -8,25 +18,13 @@
 
 ## Usage
 
-1. Copy `.env.dist` to `.env`.
-
-    ```bash
-    $ cp .env.dist .env
-    ```
-
-2. If you plan to use the [default docker repository](https://hub.docker.com/u/federkun/) to pull the Docker’s images, you can keep the default values of the `PROJECT_NAMESPACE` and `REPOSITORY_NAME` environment variables from the `.env` file and _skip this step_. Otherwise you need to build your own images. You can do that with:
-
-    ```bash 
-    $ ./bin/build
-    ```
-
-3. Start the container.
+1. Start the container.
 
     ```bash
     $ docker-compose up -d
     ```
 
-4. Access your application via [http://localhost/](http://localhost/).
+2. Access your application via [http://localhost/](http://localhost/).
 
 ## Choose a different version of php
 

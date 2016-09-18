@@ -1,2 +1,4 @@
-.env
-
+/.idea
+/app/composer.lock
+/app/vendor
+/app/var/SymfonyRequirements.php
